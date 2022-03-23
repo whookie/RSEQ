@@ -17,6 +17,9 @@ This script defines a small custom language:
 | `ROTATE <block> <angle>` | Rotate a rotor or hinge to a specific angle, in degrees |
 | `EXTEND <block> <distance>` | Extend or retract a piston to a specific distance (in meters) |
 
+The list of sequences (see the example) must be written in the Custom Data section of the programmable block.
+When the sequences are changed, the script must be recompiled (press `Recompile`).
+
 # Example
 ```
 SEQ Reset
