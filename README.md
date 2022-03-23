@@ -8,6 +8,8 @@ Space Engineers Ingame Script to define and execute custom movement sequences
 
 # Usage
 This script defines a small custom language:
+| Command | Function |
+| ------------ | ---------------------------------- |
 | `SEQ <name>` | Add a new sequence called `<name>` |
 | `RUN <name>` | Run another sequence called `<name>` |
 | `CALL <block> <action>` | Call a specific action on a block |
